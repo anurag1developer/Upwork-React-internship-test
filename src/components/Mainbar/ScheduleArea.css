@@ -23,11 +23,36 @@
   border: 1px solid #000;
 }
 
+.schedule__styling {
+  display: flex;
+}
+
 .schedule__dropdown {
-  background-color: var(--grey-color);
-  padding: 18px;
+  background-color: #f7f7f7;
+  padding: 14px 18px;
   font-size: 15px;
+  font-weight: 500;
   cursor: pointer;
+  border: 1px solid #c2c2c2;
+  border-right: none;
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.schedule__dropdown:focus {
+  outline: none;
+}
+
+.extra {
+  background-color: #f7f7f7;
+  width: 20px;
+  border: 1px solid #c2c2c2;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 .schedule__test {
