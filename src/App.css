@@ -1,38 +1,17 @@
-.App {
-  text-align: center;
+body {
+  --text-color: #2697fe;
+  --lignt-text-color: #9c9c9c;
+  --grey-color: #c2c2c2;
+  --notify-color: #ff008a;
+  --border-color: #d2d2d2;
+  --dashboard-text-color: #8e8e8e;
+  --icon-background: #a3a3a3;
+  --hr-color: #c2bbbb;
+
+  font-family: "Railway", "sans-serif";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  height: 100vh;
 }

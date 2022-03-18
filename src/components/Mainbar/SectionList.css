@@ -1,0 +1,14 @@
+.sections__categoriesList {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.sections__categoriesListItem__active {
+  color: var(--text-color);
+  border-bottom: 2px solid var(--text-color);
+  padding: 10px;
+}

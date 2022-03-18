@@ -1,0 +1,15 @@
+.sidebar {
+  flex: 0.1;
+  max-width: 171px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.sidebar__logo {
+  width: 52px;
+  height: 58px;
+  cursor: pointer;
+}

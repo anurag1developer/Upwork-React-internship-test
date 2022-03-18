@@ -1,0 +1,41 @@
+.schedule {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--hr-color);
+  margin-top: 15px;
+  padding-top: 25px;
+  padding-left: 15px;
+}
+
+.schedule__left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.schedule__text {
+  font-size: 18px;
+}
+
+.schedule__dash {
+  width: 40px;
+  border: 1px solid #000;
+}
+
+.schedule__dropdown {
+  background-color: var(--grey-color);
+  padding: 18px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.schedule__test {
+  background-color: #fff;
+  border: 1px solid var(--text-color);
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 18px;
+  color: var(--text-color);
+  cursor: pointer;
+}

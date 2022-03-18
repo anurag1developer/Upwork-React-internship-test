@@ -1,0 +1,26 @@
+.sidebarOption {
+  cursor: pointer;
+  width: 74.37px;
+  height: 69.34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--icon-background);
+}
+
+.sidebarOption:hover {
+  background-color: var(--text-color);
+  border-radius: 5px;
+  transition: color 100ms ease-out;
+  color: white;
+}
+
+.sidebarOption > .MuiSvgIcon-root {
+  font-weight: bold;
+}
+
+.sidebarOption--active {
+  background-color: var(--text-color);
+  border-radius: 5px;
+  color: white;
+}
