@@ -3,8 +3,12 @@
   display: flex;
   align-items: center;
   gap: 30px;
-  font-size: 22px;
+  font-size: 20px;
   cursor: pointer;
+}
+
+.sections__categoriesListItem:hover {
+  color: var(--text-color);
 }
 
 .sections__categoriesListItem__active {

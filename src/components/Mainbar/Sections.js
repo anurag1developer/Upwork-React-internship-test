@@ -2,6 +2,8 @@ import React from "react";
 
 import "./Sections.css";
 
+import { IconButton } from "@mui/material";
+
 import { ArrowBack } from "@mui/icons-material";
 
 import SectionList from "./SectionList";
@@ -9,7 +11,9 @@ import SectionList from "./SectionList";
 const Sections = () => {
   return (
     <div className="sections">
-      <ArrowBack />
+      <IconButton>
+        <ArrowBack />
+      </IconButton>
       <div className="sections__categories">
         <SectionList />
       </div>
